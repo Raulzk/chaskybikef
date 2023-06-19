@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.B{
+    display: flex;
+    justify-content: center;
+    margin-top: 13%;
+}
+
+
+.a{
+    display: flex;
+    justify-content: center;
+}
+
+
+p{
+    text-align: center;
+    margin-left: 8PX;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.cajaGris{
+    width: 35%;
+    height: 40px;
+    background-color:#d95b44 ;
+}
+.cajaTransparente{
+    border: solid #d95b44;
+    width: 35%;
+}
+
+
+.cajas{
+    color: #d95b44;
+    margin-bottom: 25px;
+}
+.cajas input{
+    border: solid  #d95b44;
+}
+.form-control{
+    width: 100%;
+}    
+
+.d{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.c{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boton{
+    margin-top: 5px;
+    height: 50px;
+   
+}
+.btn-outline-info{
+    width: 150px;
+    font-weight: bold;
+    background-color: white;
+}
+button{
+     width: 150px;
+}

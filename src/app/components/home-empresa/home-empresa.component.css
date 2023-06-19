@@ -1,0 +1,46 @@
+/*****HOME*****/
+.contenedor-HOME {
+    font-family: 'Roboto', sans-serif;
+  
+    text-align:center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.title-h {
+    margin-top: 2%;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 2%;
+    color: #5e0002;
+}
+
+.descripcion-h {
+    padding-top: 20px;
+    font-size: 30px;
+    color: #740001;
+    font-weight:lighter
+}
+
+.btn-contactanos {
+    margin-top: 2%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border-color: #91190f;
+    color: #d95b44;
+    padding: 0 25px;
+    border-style: solid;
+}
+
+.btn-contactanos:active {
+    opacity: 70%;
+}
+header{
+        background-image: url('../../../assets/imgs/homeEm.jpg');
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    margin: 0; 
+    padding: 0;
+}

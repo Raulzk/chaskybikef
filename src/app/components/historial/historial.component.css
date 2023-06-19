@@ -1,0 +1,13 @@
+h6{
+  font-size: 20px;
+}
+.titulo{
+  text-align: center;
+  font-size: 40px;
+  padding-top: 30px;
+  color: #5e0002;
+  font-weight: bold;
+}
+.card{
+   border: 1px solid #5e0002;
+}

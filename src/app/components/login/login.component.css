@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #d95b44;
+}
+
+.logo{
+    background-color:#d95b44;
+    display: flex;
+    justify-content: center;
+    background:transparent;
+}
+.logo img{
+    margin-top: 10px;
+    width: 20%;
+    margin-bottom: 5px;
+}
+
+
+.titulo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.titulo h1{
+    font-weight: bold;
+    color:#5e0002;
+}
+
+
+.cajas input{
+    border: solid #5e0002;
+    width: 400px;
+}
+.a{
+    display: flex;
+    justify-content: center;
+    color: #5e0002;
+}
+.form-label{
+    font-weight: bold;
+    color: #91190f;
+}
+
+
+p{
+    margin-bottom: 10px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+     font-weight: bold;
+}
+
+
+.boton{
+    height: 50px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;  
+    color: #5e0002;  
+   
+}
+.boton .btn-outline-info{
+    font-weight: bold;
+    background-color: white; 
+    padding: 5px;
+}
+
+
+.tipo{
+    display: flex;
+    justify-content: center;
+}
+.tipo .btn-outline-info{
+    font-weight: bold;
+    padding: 4px;
+    margin-left: 10px;
+}
+
+.text-muted{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: 25px
+}
+
+.alert{
+    height: 50px;
+    width:200px;
+    font-size: 14px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.ocultar {
+    display: none;
+}
+ 
+.mostrar {
+    display: block;
+
+}
+button{
+    color: #5e0002;
+    background-color: white;
+}
+.text-muted{
+    color: #5e0002;
+     background-color: white;
+}
+.text-reset{
+    color: #5e0002;
+ 
+
+}
+header{
+      background-image: url('../../../assets/imgs/login.jpg');
+    background-size: cover;
+    position: relative
+}

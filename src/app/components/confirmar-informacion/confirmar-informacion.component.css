@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.B{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+
+}
+
+
+.ar{
+    display: flex;
+    justify-content: center;
+     background-color: #d95b44;
+}
+
+
+p{
+    margin-left: 8PX;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.cajaGris{
+    width: 35%;
+    height: 40px;
+    background-color: #d95b44;
+}
+.cajaTransparente{
+    border: solid #d95b44;
+    width: 35%;
+}
+
+
+.cajas{
+    color:#5e0002;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+.cajas input{
+    border: solid #5e0002;
+}
+.form-floating{
+    width: 75%;
+}    
+
+
+.boton{
+    margin-top: 5px;
+    height: 50px;
+}
+.btn-outline-info{
+    width: 150px;
+    font-weight: bold;
+    background-color: white;
+}
